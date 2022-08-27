@@ -1,17 +1,8 @@
 {
   "name": "cra-template-axer",
-  "version": "1.0.0",
-  "description": "Axer is an create-react-app template for production type project base on typescript, styled-component, redux and ...",
+  "version": "1.1.1",
+  "description": "Axer is an create-react-app template for production type project base on typescript, styled-component and ...",
   "main": "index.js",
-  "scripts": {
-    "dev": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "jest",
-    "test:ci": "jest --coverage --silent --ci",
-    "eject": "react-scripts eject",
-    "lint": "eslint src/**/*.ts",
-    "lint-staged": "lint-staged"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arbasirian/cra-template-axer.git"
@@ -33,9 +24,5 @@
   "files": [
     "template",
     "template.json"
-  ],
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown",
-    "*.(tsx|ts)": "eslint --cache --fix"
-  }
+  ]
 }
