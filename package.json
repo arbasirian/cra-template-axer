@@ -10,7 +10,6 @@
     "test:ci": "jest --coverage --silent --ci",
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.ts",
-    "prepare": "husky install",
     "lint-staged": "lint-staged"
   },
   "repository": {
