@@ -1,6 +1,6 @@
 {
   "name": "cra-template-axer",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Axer is an create-react-app template for production type project base on typescript, styled-component and ...",
   "main": "index.js",
   "repository": {
